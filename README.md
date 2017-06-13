@@ -1,10 +1,6 @@
-### Halfeld Boilerplate
+### Luppa showcase
 
-A Jekyll boilerplate to improve productivity
-
-### Contribute
-
-**Keep it simple, Stupid**
+Landing page and showcase.
 
 ### How to use
 
