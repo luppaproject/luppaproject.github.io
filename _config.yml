@@ -24,7 +24,8 @@ head:
   # twitter:
   #   author: Your username
 
-source: app/
+source: app
+destination: _site
 
 # Build settings
 markdown: kramdown
