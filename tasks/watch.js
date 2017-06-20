@@ -7,15 +7,15 @@ const gulp = require('gulp')
  */
 module.exports = () => {
   return gulp.task('watch', () => {
-  	gulp.watch('app/src/stylus/**/*.styl', ['stylus'])
-  	gulp.watch('app/src/js/**/*.js', ['js'])
-  	gulp.watch('app/src/images/**/*.{jpg,png,gif,svg}', ['imagemin'])
+  	gulp.watch('source/src/stylus/**/*.styl', ['stylus'])
+  	gulp.watch('source/src/js/**/*.js', ['js'])
+  	gulp.watch('source/src/images/**/*.{jpg,png,gif,svg}', ['imagemin'])
   	gulp.watch([
-      'app/**/*.html',
-      'app/index.html',
-      'app/_includes/**/*.html',
-      'app/_layouts/**/*.html',
-      'app/_posts/**/*'
+      'source/**/*.html',
+      'source/index.html',
+      'source/_includes/**/*.html',
+      'source/_layouts/**/*.html',
+      'source/_posts/**/*'
     ], ['jekyll-rebuild'])
   })
 }

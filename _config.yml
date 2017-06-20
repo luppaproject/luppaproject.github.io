@@ -24,7 +24,7 @@ head:
   # twitter:
   #   author: Your username
 
-source: app
+source: source
 destination: _site
 
 # Build settings
