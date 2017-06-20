@@ -9,7 +9,7 @@ module.exports = () => {
   return gulp.task('watch', () => {
   	gulp.watch('app/src/stylus/**/*.styl', ['stylus'])
   	gulp.watch('app/src/js/**/*.js', ['js'])
-  	gulp.watch('app/src/img/**/*.{jpg,png,gif,svg}', ['imagemin'])
+  	gulp.watch('app/src/images/**/*.{jpg,png,gif,svg}', ['imagemin'])
   	gulp.watch([
       'app/**/*.html',
       'app/index.html',
