@@ -1,4 +1,6 @@
 
+@import '_variables'
+
 *
   margin 0
   padding 0
@@ -11,5 +13,7 @@ body
   font-family $font-family
   font-size 16px
 
-@import '_variables'
+  @media (max-width $breakpoint-tablet)
+    font-size 13px
+
 @import 'sections/_intro'

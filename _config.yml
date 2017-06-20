@@ -6,23 +6,23 @@ lang: pt_BR
 
 # SEO cofigs
 head:
-  title: Your awesome title
-  description: The description
-  author: You
-  github: username
-  codepen: username
-  linkedin: username
-  themeColor: purple
-  imagePathMain: /path/to/img
+  title: luppa
+  description: luppa, expondo e resolvendo gastos por licitação.
+  author: luppa
+  # github: username
+  # codepen: username
+  # linkedin: username
+  themeColor: "#8caee0"
+  imagePathMain: /assets/img/luppa-with-background-blue.png
 
   jsonld:
     type: person
-    name: You name
-    url: example@example.com.br
-    email: your-email@domain.com
+    name: luppa
+    # url: example@example.com.br
+    # email: your-email@domain.com
 
-  twitter:
-    author: Your username
+  # twitter:
+  #   author: Your username
 
 source: app/
 

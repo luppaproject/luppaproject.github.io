@@ -12,6 +12,9 @@
     &-logo
       width 250px
 
+      @media (max-width $breakpoint-tablet)
+        width 180px
+
   &-desc
     max-width $container-width
     margin 5% auto
@@ -20,6 +23,9 @@
     flex-direction column
     align-items center
     justify-content space-around
+
+    @media (max-width $breakpoint-tablet)
+      height 70vh
 
     &-title
       font-family $font-family
@@ -31,6 +37,7 @@
 
     &-subtitle
       font-family $font-family
+      text-align center
       color $color-white
       font-weight 300
 
@@ -44,7 +51,10 @@
       font-weight 600
       border-radius 100px
       text-transform uppercase
-      transition all .1s ease-in
+      transition all .1s ease-in-out
+
+      @media (max-width $breakpoint-tablet)
+        padding 20px 40px
 
       &:hover
         transform scale(1.1, 1.1)
