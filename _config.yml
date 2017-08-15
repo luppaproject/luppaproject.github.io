@@ -13,7 +13,6 @@ head:
   # codepen: username
   # linkedin: username
   themeColor: "#8caee0"
-  imagePathMain: /assets/img/luppa-with-background-blue.png
 
   jsonld:
     type: person
@@ -24,7 +23,6 @@ head:
   # twitter:
   #   author: Your username
 
-source: source
 destination: _site
 
 # Build settings
